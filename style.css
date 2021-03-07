@@ -41,14 +41,26 @@ h3 {
 	border-bottom: 1px solid black;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
+	img {
+		width: 100%;
+	}
+
+	.img-container {
+		width: 45%;
+		margin: 1% auto;
+		background-color: blue;
+	}
+}
+
+@media (max-width: 768px) {
 	img {
 		width: 100%;
 	}
 
 	.img-container {
 		width: 80%;
-		margin: 0 auto;
+		margin: 1% auto;
 		background-color: blue;
 	}
-} ;
+}
